@@ -9,7 +9,6 @@ module.exports = app => {
       var burgersObject = {
         orders: data
       };
-      console.log(burgersObject);
       res.render("index", burgersObject);
     });
   });
@@ -19,7 +18,6 @@ module.exports = app => {
       var burgersObject = {
         orders: data
       };
-      console.log(burgersObject);
       res.render("index", burgersObject);
     });
   });

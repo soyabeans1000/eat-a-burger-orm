@@ -10,7 +10,9 @@ body {
 
 .container {
     width: 90%;
-    height: 100vh;
+    min-height: 100vh;
+    /* border:10px red dotted; */
+    overflow: visible;
 }
 
 .burger-header {
@@ -21,6 +23,7 @@ body {
     background-color: white;
     font-size: 3.5em;
     opacity: 0.8;
+    /* border:10px black dotted; */
 }
 
 .new_burger_form {
@@ -44,7 +47,7 @@ body {
         padding: 10px;
     }
     .burger-header {
-        font-size: 1em;
+        font-size: 0.5em;
         height: 150px;
     }
     .img_placeholder {
