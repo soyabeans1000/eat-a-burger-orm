@@ -1,0 +1,63 @@
+body {
+    /* background-image: url('../images/burger.jpg');  */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: brown;
+    font-size: 1em;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.container {
+    width: 90%;
+    height: 100vh;
+}
+
+.burger-header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 250px;
+    background-color: white;
+    font-size: 3.5em;
+    opacity: 0.8;
+}
+
+.new_burger_form {
+    background-color: black;
+    padding: 0px;
+}
+
+.img_placeholder {
+    height: auto;
+    width: 225px;
+}
+
+.form_burger {
+    width: 70%;
+}
+
+/* Width at 640px and below  */
+
+@media only screen and (max-width: 640px) {
+    #current_orders, #completed_orders {
+        padding: 10px;
+    }
+    .burger-header {
+        font-size: 1em;
+        height: 150px;
+    }
+    .img_placeholder {
+        height: auto;
+        width: 125px;
+    }
+}
+
+@media only screen and (min-device-width: 640px) and (max-device-width: 1024px) {
+    #orders {
+        margin-top: 5px;
+    }
+    #current_orders, #completed_orders {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,46 @@
+<div class="card border-light bg-black">
+  <div class="card-body">
+    <form class="form-inline">
+      <input class="form_burger" id="burger_name" placeholder="Order Your Burger! Eg. Cheese Burger"
+        type="text">&nbsp;&nbsp;<button class="btn btn-warning" id="addBurger" type="submit">Order</button></form>
+  </div>
+</div>
+<br>
+<div class="row" id="orders">
+  <div class="col-lg-6 col-sm-12 col-md-12" id="current_orders">
+    <div class="card bg-black">
+      <div class="card-header bg-warning">
+        Current Orders
+      </div>
+      <div class="card-body">
+        {{!-- Display Orders where eaten is false --}}
+        <p class="card-text">{{#each orders}}
+          {{#unless eaten}}
+          {{burger_name}} <a href="#"><i class="fas fa-concierge-bell" data-id="{{burgerID}}"></i></a><br>
+          {{/unless}}
+          {{/each}}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-sm-12 col-md-12" id="completed_orders">
+    <div class="card">
+      <div class="card-header bg-warning">
+        Orders Delivered
+      </div>
+      <div class="card-body">
+        <p class="card-text">
+      {{!-- Display Orders where eaten is true --}}
+          {{#each orders}}
+          {{#if eaten}}
+          {{burger_name}}<br>
+          {{/if}}
+          {{/each}}
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--End of Row-->
+</div>
+
+<script src="./assets/js/app.js"></script>
