@@ -1,10 +1,15 @@
+html{
+    font-size:14px;
+}
+
+
 body {
     /* background-image: url('../images/burger.jpg');  */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: brown;
-    font-size: 1em;
+    font-size: 1rem;
     font-family: Verdana, Tahoma, sans-serif;
 }
 
@@ -21,7 +26,7 @@ body {
     background-position: left;
     height: 250px;
     background-color: white;
-    font-size: 3.5em;
+    font-size: 2rem;
     opacity: 0.8;
     /* border:10px black dotted; */
 }
@@ -31,9 +36,10 @@ body {
     padding: 0px;
 }
 
-.img_placeholder {
+.placeholder {
     height: auto;
-    width: 225px;
+    max-width: 100%;
+  
 }
 
 .form_burger {
@@ -50,16 +56,14 @@ body {
         font-size: 0.5em;
         height: 150px;
     }
-    .img_placeholder {
+    /* .img_placeholder {
         height: auto;
-        width: 125px;
-    }
+        width: 30%;
+    } */
 }
 
 @media only screen and (min-device-width: 640px) and (max-device-width: 1024px) {
-    #orders {
-        margin-top: 5px;
-    }
+   
     #current_orders, #completed_orders {
         padding: 10px;
     }
