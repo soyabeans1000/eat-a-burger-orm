@@ -52,19 +52,12 @@ body {
     #current_orders, #completed_orders {
         padding: 10px;
     }
-    .burger-header {
-        font-size: 0.5em;
-        height: 150px;
-    }
-    /* .img_placeholder {
-        height: auto;
-        width: 30%;
-    } */
+   
 }
 
-@media only screen and (min-device-width: 640px) and (max-device-width: 1024px) {
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
    
     #current_orders, #completed_orders {
         padding: 10px;
-    }
+      }
 }
