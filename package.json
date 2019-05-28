@@ -1,5 +1,5 @@
 {
-  "name": "eat-a-burger",
+  "name": "eat-a-burger-orm",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -20,13 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/soyabeans1000/eat-a-burger.git"
+    "url": "git+https://github.com/soyabeans1000/eat-a-burger-orm.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/soyabeans1000/eat-a-burger/issues"
+    "url": "https://github.com/soyabeans1000/eat-a-burger-orm/issues"
   },
-  "homepage": "https://github.com/soyabeans1000/eat-a-burger#readme"
+  "homepage": "https://github.com/soyabeans1000/eat-a-burger-orm#readme"
 }
